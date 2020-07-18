@@ -774,6 +774,7 @@ font-weight: 600;}
      padding-top: 5px;
      text-transform: uppercase;
      color: #ffffff;
+     text-align: center;
 }
  .col-to-action-area h2 span {
      font-weight: 600;
@@ -818,7 +819,7 @@ font-weight: 600;}
      height: 100%;
      left: 0;
      top: 0;
-     background: rgba(0,0,0,0.9);
+     background: rgba(0,0,0,0.8);
 }
  .product-add-area h1 {
      text-transform: uppercase;
@@ -1129,10 +1130,9 @@ font-weight: 600;}
      display: block;
      color: #34495E;
      margin-bottom: 30px;
-     text-transform: capitalize;
 }
  .single-blog-box:hover {
-     box-shadow: 0px 0px 20px #d9d9d9;
+     box-shadow: 0 0 20px #d9d9d9;
      color: #34495E;
 }
  .blog-thumb-wrapper {
@@ -1148,7 +1148,8 @@ font-weight: 600;}
  .blog-read-more {
      display: inline-block;
      font-size: 16px;
-     margin:15 0px;
+     font-weight: 600;
+     margin:15px 0;
      position: relative;
      line-height: 1;
      color: #34495E;
@@ -1169,45 +1170,12 @@ font-weight: 600;}
      opacity: 1;
      visibility: visible;
 }
- .social-sharing {
-     border-top: 1px solid #f0f0f0;
-     border-bottom: 1px solid #f0f0f0;
-     text-align: center;
-     padding: 20px 0;
-     margin-bottom: 30px;
-     margin-top: 30px;
-}
- .social-sharing a {
-     display: inline-block;
-     background-color: #2a5da7;
-     color: #fff;
-     padding: 10px 20px 8px;
-     border-radius: 40px;
-     margin: 5px 5px;
-}
- .social-sharing a.twitter {
-     background-color: #36c8ee;
-}
- .social-sharing a.pinterest {
-     background-color: #d30f27;
-}
- .social-sharing a.google {
-     background-color: #D44439;
-}
- .entry-content p, .author-box p {
+
+ .entry-content p {
      margin-bottom: 20px;
-     opacity: ;
+     text-align: justify;
 }
- .author-box {
-     border-bottom: 1px solid #f0f0f0;
-     margin-bottom: 30px;
-}
- .author-box img {
-     border-radius: 50%;
-     border: 1px solid #d7d7d7;
-     max-width: 80px;
-     margin: 15px 0;
-}
+
  .comment-form textarea {
      margin-bottom: 0;
      height: 120px;
